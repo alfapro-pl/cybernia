@@ -1,0 +1,5 @@
+# [ZMIANA E3] Nowy plik
+User-agent: *
+Allow: /
+
+Sitemap: https://cybernia.pl/sitemap.xml

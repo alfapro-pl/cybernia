@@ -1,1 +1,1500 @@
-Site under construction !!!
+<!doctype html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>Cybernia – sieci i cyberbezpieczeństwo | Wdrożenie NIS2 i ustawy o KSC</title>
+	<meta name="description" content="Cybernia z Gdańska: sieci, audyty i wdrożenie NIS2 oraz ustawy o KSC. Nie zdążyłeś z wpisem do wykazu? Pomożemy to nadrobić – bezpłatna konsultacja.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#425cbb">
+	<meta name="referrer" content="strict-origin-when-cross-origin">
+	<link rel="canonical" href="https://cybernia.pl/">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="pl_PL">
+	<meta property="og:site_name" content="Cybernia sp. z o.o.">
+	<meta property="og:url" content="https://cybernia.pl/">
+	<meta property="og:title" content="Cybernia – sieci i cyberbezpieczeństwo zgodne z NIS2 i KSC">
+	<meta property="og:description" content="Audyt, wdrożenie i utrzymanie zgodności z NIS2 oraz ustawą o KSC. Bezpieczne sieci, monitoring, kopie zapasowe i szkolenia – wyjaśnione prostym językiem.">
+	<meta property="og:image" content="https://cybernia.pl/img/og/cybernia-og.png">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="627">
+	<meta property="og:image:alt" content="Cybernia – cyberbezpieczeństwo zgodne z NIS2 i KSC">
+	<meta name="twitter:card" content="summary_large_image">
+	<link rel="icon" href="img/favicon.ico" sizes="any">
+	<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap">
+	<link rel="preload" as="image" href="img/bg/header-bg.jpg" fetchpriority="high">
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="css/dripicons.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<style>
+		.skip-link.sr-only-focusable:focus{position:fixed;top:10px;left:10px;z-index:100000;background:#fff;color:#425cbb;padding:10px 18px;border:2px solid #425cbb;border-radius:4px;font-weight:600}
+		a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:2px solid #425cbb;outline-offset:3px}
+		.logo a{display:inline-block;max-width:100%}
+		.logo .brand-logo{display:block;width:100%;max-width:210px;height:auto}
+		.footer-top .logo .brand-logo{max-width:190px}
+		.second-services-content h3{font-size:20px;font-weight:600;margin-bottom:10px;transition:.3s}
+		.s-single-services:hover .second-services-content h3,.s-single-services.active .second-services-content h3{color:#425cbb}
+		.wp-content h3{color:#fff;font-size:24px;margin-bottom:15px}
+		.pricing-head h3{font-size:18px;font-weight:600;color:#425cbb;margin-bottom:10px;text-transform:uppercase}
+		.pricing-box.active .pricing-head h3{color:#fff}
+		.single-cta h3,.single-cta .cta-lead{font-family:'Roboto',sans-serif;font-size:20px;font-weight:600;color:#252525;line-height:28px;margin-bottom:10px}
+		.f-widget-title h2{color:#fff;font-size:20px;margin-bottom:30px;padding-bottom:25px;position:relative}
+		.f-widget-title h2::before{content:"";position:absolute;left:0;bottom:0;height:2px;width:40px;background:#fff}
+		/* nagłówek i sekcja powitalna */
+		.second-menu .header-btn{margin-left:0}
+		.slider-area .slider-active{width:100%}
+		.slider-bg2 .second-slider-content{padding-top:150px;padding-bottom:90px}
+		.second-header-btn .btn{padding:15px 28px;font-size:14px;letter-spacing:.5px}
+		.slider-bg2 .slider-content p.hero-eyebrow{display:inline-block;max-width:none;font-size:13px;line-height:1.5;font-weight:600;letter-spacing:.3px;color:#425cbb;background:rgba(66,92,187,.1);border:1px solid rgba(66,92,187,.25);border-radius:50px;padding:8px 18px;margin-bottom:28px}
+		.slider-content h1.hero-title{font-size:76px;font-weight:700;color:#2b2f38;letter-spacing:-1.5px;line-height:1.06;margin-bottom:6px}
+		.hero-typed{display:inline-block;min-height:1.06em;color:#425cbb}
+		.typed-cursor{color:#425cbb;font-weight:400;margin-left:3px;animation:cyb-blink 1s step-end infinite}
+		@keyframes cyb-blink{50%{opacity:0}}
+		.slider-bg2 .slider-content>span.hero-sub{font-size:15px;letter-spacing:3px;margin:26px 0 18px}
+		.slider-bg2 .slider-content>span.hero-sub::before{margin-top:10px;width:48px}
+		.slider-bg2 .slider-content p{max-width:610px}
+		.slider-btn .btn{margin:0 12px 12px 0}
+		.slider-btn .btn.hero-btn-outline{background:transparent;color:#2b2f38;border:2px solid #2b2f38;box-shadow:none;padding:16px 34px}
+		.slider-btn .btn.hero-btn-outline:hover{background:#2b2f38;color:#fff}
+		.hero-trust{display:flex;flex-wrap:wrap;margin-top:22px}
+		.hero-trust li{font-size:14px;font-weight:500;color:#383838;margin:0 26px 10px 0}
+		.hero-trust li i{color:#425cbb;margin-right:8px}
+		/* pasek technologii open source */
+		.oss-caption{text-align:center;color:rgba(255,255,255,.82);font-size:13px;font-weight:500;letter-spacing:2px;text-transform:uppercase;margin-bottom:22px}
+		.oss-item{padding:4px 8px}
+		.oss-name{display:block;font-family:'Roboto',sans-serif;font-size:24px;font-weight:700;color:#fff;letter-spacing:.3px;line-height:1.2}
+		.oss-cat{display:block;margin-top:4px;font-size:11px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.88)} /* [ZMIANA A7] kontrast 3,98:1 → ok. 4,5:1 (WCAG AA) */
+		.oss-card{width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);padding:28px 26px 26px;transition:.3s}
+		.oss-card:hover{background:rgba(255,255,255,.09);border-color:#9fb0ff;transform:translateY(-3px)}
+		.oss-card h3{color:#fff;font-size:22px;margin:16px 0 10px}
+		.oss-card p{color:#c9d2ea;font-size:14px;line-height:25px;margin:0}
+		.oss-badge{display:inline-block;font-size:11px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:#13204a;background:#9fb0ff;padding:4px 11px;border-radius:30px}
+		.oss-note{font-size:12px;color:#8e9bc4;text-align:center;margin:20px 0 0}
+		/* pasek CTA */
+		.cta-band{background:#425cbb;background-image:linear-gradient(120deg,#425cbb 0%,#2c3f96 100%)}
+		.cta-band h2{color:#fff;font-size:34px;margin-bottom:10px}
+		.cta-band p{color:#e3e8fb;font-size:16px;margin:0}
+		.btn.cta-band-btn{background:#fff;color:#425cbb;font-weight:600}
+		.btn.cta-band-btn:hover{background:#13204a;color:#fff}
+		/* typografia i detale */
+		.section-title h2{font-size:46px}
+		.count{font-family:'Roboto',sans-serif;font-weight:700}
+		.faq-btn{font-family:'Poppins',sans-serif;font-weight:500}
+		.faq-wrap .card{border-color:#e3e7f0}
+		.faq-wrap .card-header h3 button::after{content:"\f068";color:#425cbb}
+		.faq-wrap .card-header h3 button.collapsed::after{content:"\f067"}
+		.s-single-services:hover,.pricing-box:hover{box-shadow:0 22px 40px -22px rgba(19,32,74,.35)}
+		.s-single-services:hover{transform:translateY(-4px)}
+		.pricing-box{transition:.3s}
+		.section-lead{font-size:16px;line-height:30px;color:#5c5c5c}
+		.choose-list ul li{display:flex;align-items:flex-start}
+		.choose-list ul li i{flex:0 0 auto;margin-top:7px;margin-right:12px}
+		.equal-cards>[class*="col-"]{display:flex}
+		.equal-cards .s-single-services{width:100%}
+		.ksc-band{background:#13204a;background-image:linear-gradient(135deg,#13204a 0%,#1d2f6b 100%)}
+		.ksc-band .section-title span{color:#9fb0ff}
+		.ksc-band .section-title h2{color:#fff}
+		.ksc-band .section-title h2::before{background:#9fb0ff}
+		.ksc-band .section-lead{color:#c9d2ea}
+		.ksc-timeline{margin-top:10px}
+		.tl-item{position:relative;padding:38px 25px 10px 0;margin-bottom:20px}
+		.tl-item::before{content:"";position:absolute;left:0;right:0;top:10px;height:3px;background:rgba(255,255,255,.18)}
+		.tl-item.is-past::before{background:#9fb0ff}
+		.tl-dot{position:absolute;left:0;top:1px;width:21px;height:21px;border-radius:50%;background:#13204a;border:3px solid #9fb0ff}
+		.tl-item.is-past .tl-dot{background:#9fb0ff}
+		.tl-date{display:block;font-family:'Roboto',sans-serif;font-size:26px;font-weight:700;color:#9fb0ff;margin-bottom:6px}
+		.tl-item h3{font-size:18px;color:#fff;margin-bottom:8px}
+		.tl-item p{color:#c9d2ea;margin-bottom:0}
+		.ksc-notice{background:rgba(255,255,255,.06);border-left:5px solid #9fb0ff;padding:28px 30px;margin-top:30px}
+		.ksc-notice p{color:#fff;font-size:15px;margin-bottom:0}
+		.ksc-notice strong{color:#fff}
+		.ksc-notice .btn{margin-top:20px}
+		#ksc-countdown{display:block;margin-top:10px;color:#c9d2ea}
+		#ksc-countdown strong{color:#9fb0ff;font-size:20px}
+		.counter small.unit{font-size:28px;top:-26px}
+		.wp-icon .step-no{display:inline-block;width:56px;height:56px;line-height:56px;border-radius:50%;background:#fff;color:#232c8e;font-family:'Roboto',sans-serif;font-weight:700;font-size:20px;text-align:center}
+		.why-us h3{font-size:20px;margin:30px 0 20px}
+		.price-count .price{font-family:'Roboto',sans-serif;font-size:45px;font-weight:600;color:#252525;line-height:1.2;margin-bottom:0}
+		.pricing-box.active .price-count .price{color:#fff}
+		/* [ZMIANA R2] Zastępnik mapy (ta sama wysokość 350 px co dotychczasowy iframe) */
+		.map-consent{height:350px;background:#eef1f8;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px}
+		.map-consent-inner{max-width:560px}
+		.map-consent p{font-size:14px;line-height:22px;margin:0 0 16px;color:#4a4f5c}
+		.map-consent p a,.map-ext{color:#425cbb;font-weight:500}
+		.map-consent .btn{margin:0 12px 8px 0}
+		.map-consent iframe.map{display:block;width:100%;height:350px;border:0}
+		.map-consent.is-loaded{display:block;padding:0;background:none}
+		.copyright-text .pp-link{color:inherit;text-decoration:underline}
+		.rodo-info{font-size:13px;line-height:22px}
+		.rodo-info summary{color:#425cbb;font-weight:500}
+		.rodo-info p{font-size:13px;line-height:22px;margin:10px 0 0}
+		.ajax-response{margin:20px 0 0;font-weight:500;white-space:pre-line}
+		/* [ZMIANA A1] Przycisk menu mobilnego wygląda jak dotychczasowy div.responsive */
+		button.responsive{background:none;border:0;padding:0;font:inherit;line-height:1}
+		/* [ZMIANA A3] Programowy fokus na sekcji po przewinięciu nie rysuje ramki */
+		[tabindex="-1"]:focus{outline:0}
+		/* [ZMIANA S3] Pole-pułapka na boty (poza ekranem, niewidoczne dla ludzi i czytników) */
+		/* [ZMIANA N1] Sekcja „Aktualności z LinkedIn” */
+		.news-card{display:flex;flex-direction:column;width:100%;background:#fff;border:1px solid #e3e7f0;transition:.3s;color:inherit;text-decoration:none}
+		.news-card:hover,.news-card:focus{box-shadow:0 22px 40px -22px rgba(19,32,74,.35);transform:translateY(-4px);color:inherit;text-decoration:none}
+		.news-card img{width:100%;height:180px;object-fit:cover;object-position:68% center;display:block}
+		#news-list{justify-content:center}
+		.news-body{display:flex;flex-direction:column;flex:1;padding:26px 26px 24px}
+		.news-date{font-size:12px;letter-spacing:1.2px;text-transform:uppercase;color:#425cbb;font-weight:600;margin-bottom:10px}
+		.news-card h3{font-size:19px;font-weight:600;color:#252525;line-height:1.4;margin-bottom:10px}
+		.news-card p{font-size:14px;line-height:25px;color:#5c5c5c;flex:1;margin-bottom:0}
+		.news-more{margin-top:16px;font-size:14px;font-weight:600;color:#425cbb}
+		.news-embed:hover{transform:none;box-shadow:none}
+		.news-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;margin-top:16px}
+		.news-actions .news-more{margin-top:0}
+		.news-load{border:0;background:#425cbb;color:#fff;font-size:14px;font-weight:600;padding:10px 18px;cursor:pointer;transition:.3s}
+		.news-load:hover,.news-load:focus{background:#2f4699}
+		p.news-note{flex:none;margin-top:12px;font-size:12px;line-height:1.5;color:#767676}
+		.news-frame iframe{display:block;width:100%;height:570px;border:0;margin-top:14px}
+		.news-all{margin-top:20px;text-align:center}
+		/* [ZMIANA R3] baner zgody */
+		.cookie-banner{position:fixed;left:16px;right:16px;bottom:16px;z-index:100000;max-width:920px;margin:0 auto;display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center;justify-content:space-between;background:#fff;color:#252525;border:1px solid #d5dbea;border-top:4px solid #425cbb;box-shadow:0 18px 50px -12px rgba(19,32,74,.45);padding:18px 22px;max-height:80vh;overflow:auto}
+		.cookie-banner[hidden]{display:none}
+		.cookie-banner-text{flex:1 1 420px}
+		.cookie-banner strong{display:block;font-size:16px;margin-bottom:6px}
+		.cookie-banner p{font-size:13.5px;line-height:1.55;margin:0;color:#4a4f5c}
+		.cookie-banner p a{color:#425cbb;font-weight:500;text-decoration:underline}
+		.cookie-banner-actions{display:flex;gap:12px;flex:0 0 auto}
+		.cookie-btn{border:2px solid #425cbb;background:#fff;color:#425cbb;font-size:14px;font-weight:600;padding:11px 24px;cursor:pointer;transition:.2s;min-width:132px}
+		.cookie-btn:hover,.cookie-btn:focus{background:#425cbb;color:#fff}
+		.cookie-btn:focus-visible{outline:3px solid #13204a;outline-offset:2px}
+		@media (max-width:575px){.cookie-banner{left:8px;right:8px;bottom:8px;padding:14px 16px}.cookie-banner-actions{width:100%}.cookie-btn{flex:1;min-width:0;padding:12px 10px}}
+		/* [ZMIANA L4] Link „Udostępnij na LinkedIn” w stopce */
+		/* [ZMIANA A2] Linki mailto:/tel: tworzone skryptem dziedziczą dotychczasowy kolor tekstu (wygląd bez zmian) */
+		.contact-link{color:inherit}
+		.contact-link:hover,.contact-link:focus{color:inherit;text-decoration:underline}
+		.footer-share{margin:14px 0 0;font-size:13px}
+		.footer-share a{color:#ddd}
+		.footer-share a:hover,.footer-share a:focus{color:#9fb0ff;text-decoration:underline}
+		/* [ZMIANA G5] formularz mailto */
+		.form-note{font-size:13px;line-height:1.5;color:#5c5c5c;margin:0 0 16px}
+		.mail-fallback{margin-top:22px;padding:18px;background:#f5f8fa;border:1px solid #e3e7f0}
+		.mail-fallback p{font-size:14px;line-height:1.55;margin:0 0 12px;color:#4a4f5c}
+		.mail-fallback textarea{display:block;width:100%;font-size:14px;line-height:1.5;padding:12px;border:1px solid #d5dbea;background:#fff;color:#252525;margin-bottom:12px;resize:vertical}
+		.ajax-response.success{color:#1e7e34}
+		.ajax-response.error{color:#c0392b}
+		.company-data{font-size:13px;line-height:22px}
+		@media (max-width:991px){
+			.logo .brand-logo{max-width:190px}
+			.ksc-timeline{border-left:3px solid rgba(255,255,255,.18);margin-left:10px}
+			.tl-item{padding:0 0 10px 30px}
+			.tl-item::before{display:none}
+			.tl-dot{left:-12px;top:4px}
+		}
+		@media (max-width:767px){
+			.slider-bg2 .second-slider-content{padding-top:150px;padding-bottom:70px}
+			.slider-btn{display:block}
+			.btn.ss-btn{display:inline-block}
+			.btn{white-space:normal}
+		}
+		@media (min-width:768px) and (max-width:991px){
+			.slider-content h1.hero-title{font-size:64px}
+			.section-title h2{font-size:40px}
+		}
+		@media (max-width:991px){.cta-band .btn{margin-top:25px}}
+		@media (max-width:767px){
+			.slider-content h1.hero-title{font-size:40px;letter-spacing:-.5px}
+			.slider-bg2 .slider-content p.hero-eyebrow{font-size:12px;padding:7px 14px}
+			.slider-btn .btn.hero-btn-outline{padding:16px 30px}
+			.section-title h2{font-size:32px}
+			.cta-band h2{font-size:26px}
+		}
+		@media only screen and (min-width:480px) and (max-width:767px){
+			.slider-content h1.hero-title{font-size:52px}
+			.section-title h2{font-size:36px}
+		}
+		@media (max-width:575px){.slider-btn .btn{display:block;width:100%;margin-right:0}}
+		@media (prefers-reduced-motion:reduce){
+			*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+			#particles-js{display:none}
+		}
+	</style>
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "Cybernia",
+		"legalName": "Cybernia sp. z o.o.",
+		"url": "https://cybernia.pl/",
+		"sameAs": ["https://www.linkedin.com/company/cybernia-pl/"],
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "ul. Jana Heweliusza 11/811",
+			"postalCode": "80-890",
+			"addressLocality": "Gdańsk",
+			"addressCountry": "PL"
+		},
+		"areaServed": "PL",
+		"knowsAbout": ["Cyberbezpieczeństwo", "Dyrektywa NIS2", "Krajowy system cyberbezpieczeństwa", "Sieci komputerowe", "ISO/IEC 27001"]
+	}
+	</script>
+	<link rel="stylesheet" href="css/dopasowanie.css">
+</head>
+<body>
+	<a class="skip-link sr-only sr-only-focusable" href="#main">Przejdź do treści</a>
+	<!-- UPper -->
+	<div id="home" class="upper-bg pt-10 pb-10">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-xl-5 col-lg-6 col-sm-7">
+					<div class="footer-widget mb-30">
+						<div class="upper-link">
+							<ul>
+								<li>
+									<a href="#contact" class="smoth-scroll"><i class="fal fa-envelope" aria-hidden="true"></i>  <span class="forSec">&#x6c;&#112;&period;<span class="prot">7 7</span>&#x61;&#105;&#x6e;&#114;&#x65;<span class="prot">b e</span>&#x62;&#121;&#x63;&commat;<span class="prot">98</span>&#x74;<!--sec-->&#107;<span class="prot">x1</span>&#x61;<!--info-->&#116;&#x6e;<span class="prot">00</span>&#111;&#x6b;</span></a>
+									<a href="#contact" class="smoth-scroll"><i class="fal fa-phone" aria-hidden="true"></i>  <span class="forSec">&#48;<span class="prot">2 8</span>&#x30;<!--sec-->&#x36;<span class="prot">69</span>&#32;<!--net-->&#x32;&#52;<span class="prot">11</span>&#x33;&#32;<!--backup-->&#48;<span class="prot">77</span>&#x30;&#53;</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-5 col-sm-5 text-sm-right">
+					<div class="footer-widget mb-30">
+						<div class="upper-link">
+							<ul>
+								<li>
+									<a href="#nis2" class="smoth-scroll"><i class="fal fa-shield-alt" aria-hidden="true"></i><span>  Czy NIS2 mnie dotyczy?</span></a>
+									   
+									<a href="https://www.teamviewer.com/pl/do-pobrania/windows/" target="_blank" rel="noopener noreferrer"><i class="fal fa-headset" aria-hidden="true"></i><span>  Wsparcie OnLine</span><span class="sr-only"> (otwiera się w nowej karcie)</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- UPper-end -->
+	<!-- header -->
+	<header class="header-area">
+		<div id="header-sticky" class="menu-area">
+			<div class="container">
+				<div class="second-menu">
+					<div class="row align-items-center">
+						<div class="col-xl-2 col-lg-2">
+							<div class="logo">
+								<a href="#home" class="smoth-scroll">
+									<svg class="brand-logo" viewBox="0 0 240 64" width="210" height="56" role="img" aria-labelledby="logo-title-top" xmlns="http://www.w3.org/2000/svg">
+										<title id="logo-title-top">Cybernia sp. z o.o. – sieci i cyberbezpieczeństwo</title>
+										<path d="M28 2 52 11v19c0 15-10 26-24 32C14 56 4 45 4 30V11z" fill="#425cbb"/>
+										<path d="M35.8 23.2a11 11 0 1 0 0 15.6" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+										<circle cx="35.8" cy="23.2" r="3.4" fill="#fff"/>
+										<circle cx="35.8" cy="38.8" r="3.4" fill="#fff"/>
+										<text x="64" y="43" textLength="170" lengthAdjust="spacingAndGlyphs" font-family="Roboto, Arial, sans-serif" font-size="33" font-weight="700" fill="#252525">CYBERNIA</text>
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-7 col-lg-9">
+							<button type="button" class="responsive" id="menu-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Menu"><i class="icon dripicons-align-right" aria-hidden="true"></i></button>
+							<div class="main-menu text-right text-xl-center">
+								<nav id="mobile-menu" aria-label="Menu główne">
+									<ul>
+										<li><a href="#home">HOME</a></li>
+										<li><a href="#about">O NAS</a></li>
+										<li><a href="#nis2">NIS2</a></li>
+										<li><a href="#services">OFERTA</a></li>
+										<li><a href="#pricing">PAKIETY</a></li>
+										<li><a href="#faq">FAQ</a></li>
+										<li><a href="#contact">KONTAKT</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="col-xl-3 text-right d-none d-xl-block">
+							<div class="header-btn second-header-btn">
+								<a href="#contact" class="btn smoth-scroll">bezpłatne konsultacje</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header-end -->
+	<!-- main-area -->
+	<main id="main">
+		<!-- slider-area -->
+		<section id="parallax" class="slider-area slider-bg2 second-slider-bg d-flex align-items-center justify-content-center fix" style="background-image:url(img/bg/header-bg.jpg)">
+			<div class="slider-active">
+				<div class="single-slider">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-7 col-lg-8">
+								<div class="slider-content second-slider-content left-center">
+									<p class="hero-eyebrow" data-animation="fadeInUp" data-delay=".1s"><i class="fal fa-gavel" aria-hidden="true"></i>  Ustawa o KSC (NIS2) obowiązuje od 3 kwietnia 2026 r.</p>
+									<h1 class="hero-title" data-animation="fadeInUp" data-delay=".3s">Chronimy<br><span class="hero-typed"><span class="element" data-elements="sieci,dane,systemy,reputację" aria-hidden="true"></span><noscript>sieci</noscript><span class="sr-only">sieci, dane, systemy i reputację</span></span><br>Twojej firmy</h1>
+									<span class="hero-sub" data-animation="fadeInUp" data-delay=".5s">skutecznie i zgodnie z przepisami</span>
+									<p data-animation="fadeInUp" data-delay=".7s">Projektujemy i zabezpieczamy sieci, wdrażamy wymagania dyrektywy NIS2 i&nbsp;znowelizowanej ustawy o Krajowym Systemie Cyberbezpieczeństwa, a&nbsp;potem pomagamy utrzymać zgodność na co dzień. Bez żargonu – tak, aby&nbsp;Zarząd wiedział, co robimy i dlaczego.</p>
+									<div class="slider-btn mt-40">
+										<a href="#contact" class="btn ss-btn smoth-scroll" data-animation="fadeInUp" data-delay=".9s">Umów bezpłatną konsultację</a>
+										<a href="#nis2" class="btn hero-btn-outline smoth-scroll" data-animation="fadeInUp" data-delay=".9s">Czy NIS2 mnie dotyczy?</a>
+									</div>
+									<ul class="hero-trust" data-animation="fadeInUp" data-delay="1.1s">
+										<li><i class="fal fa-check-circle" aria-hidden="true"></i>Audyt i wdrożenie NIS2</li>
+										<li><i class="fal fa-check-circle" aria-hidden="true"></i>Sieci i monitoring</li>
+										<li><i class="fal fa-check-circle" aria-hidden="true"></i>Szkolenia dla Zarządu</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="particles-js"></div>
+		</section>
+		<!-- slider-area-end -->
+		<!-- brand-area: rozwiązania open source -->
+		<div class="brand-area oss-strip pt-20 pb-40" style="background-color:#425cbb">
+			<div class="container">
+				<p class="oss-caption">Wdrażamy sprawdzone rozwiązania open source</p>
+				<div class="row brand-active">
+					<div class="col-xl-2">
+						<div class="single-brand oss-item">
+							<span class="oss-name">Wazuh</span>
+							<span class="oss-cat">SIEM / XDR</span>
+						</div>
+					</div>
+					<div class="col-xl-2">
+						<div class="single-brand oss-item">
+							<span class="oss-name">Suricata</span>
+							<span class="oss-cat">IDS / IPS</span>
+						</div>
+					</div>
+					<div class="col-xl-2">
+						<div class="single-brand oss-item">
+							<span class="oss-name">OPNsense</span>
+							<span class="oss-cat">Firewall</span>
+						</div>
+					</div>
+					<div class="col-xl-2">
+						<div class="single-brand oss-item">
+							<span class="oss-name">Zabbix</span>
+							<span class="oss-cat">Monitoring</span>
+						</div>
+					</div>
+					<div class="col-xl-2">
+						<div class="single-brand oss-item">
+							<span class="oss-name">OpenVAS</span>
+							<span class="oss-cat">Skaner podatności</span>
+						</div>
+					</div>
+					<div class="col-xl-2">
+						<div class="single-brand oss-item">
+							<span class="oss-name">WireGuard</span>
+							<span class="oss-cat">VPN</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- brand-area-end -->
+		<!-- about-area -->
+		<section id="about" class="services-area services-bg pt-100 pb-90">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-9 col-lg-10">
+						<div class="section-title text-center pl-40 pr-40 mb-50 wow fadeInDown animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<span>o nas</span>
+							<h2>Kim jesteśmy?</h2>
+						</div>
+						<p class="section-lead text-center mb-60">Cybernia to trójmiejski zespół specjalistów od sieci komputerowych i cyberbezpieczeństwa z ponad 20‑letnim doświadczeniem. Projektujemy, budujemy i utrzymujemy infrastrukturę IT firm oraz instytucji, a dziś pomagamy im także spełnić wymagania NIS2 i znowelizowanej ustawy o KSC.<br>
+						Aktywnie współpracujemy również ze środowiskiem akademickim, łącząc głęboką praktykę inżynierską ze&nbsp;znajomością przepisów – tłumaczymy jedno i drugie zrozumiałym językiem.</p>
+					</div>
+				</div>
+				<div class="row equal-cards">
+					<div class="col-lg-4 col-md-6 mb-30">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-comments" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>ZROZUMIALE</h3>
+								<p>Tłumaczymy przepisy i technologię na język biznesu. Zamiast żargonu dostajesz jasną odpowiedź: co trzeba zrobić, dlaczego i w jakiej kolejności.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mb-30">
+						<div class="s-single-services active wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-shield-alt" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>KOMPLEKSOWO</h3>
+								<p>Łączymy kompetencje sieciowe, techniczne i organizacyjne – od audytu i&nbsp;projektu sieci, przez dokumentację bezpieczeństwa, po monitoring i szkolenia.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mb-30">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-bullseye" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>SKUTECZNIE</h3>
+								<p>Zaczynamy od największych ryzyk dla Twojej firmy. Wdrażamy zabezpieczenia proporcjonalne do zagrożeń i budżetu – bez przerostu formy nad treścią.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- about-area-end -->
+		<!-- nis2-area -->
+		<section id="nis2" class="ksc-band pt-100 pb-90">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-9 col-lg-10">
+						<div class="section-title text-center pl-40 pr-40 mb-50 wow fadeInDown animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<span>NIS2 / KSC</span>
+							<h2>Nowe przepisy w pigułce</h2>
+						</div>
+						<p class="section-lead text-center mb-60">NIS2 to unijna dyrektywa, która podnosi poprzeczkę w cyberbezpieczeństwie w całej Europie. W Polsce wdraża ją znowelizowana ustawa o krajowym systemie cyberbezpieczeństwa (KSC), obowiązująca od 3 kwietnia 2026 r. Obejmuje tysiące firm i instytucji – nie tylko z branży IT – i wymaga od nich zarządzania ryzykiem, zgłaszania incydentów oraz realnego zaangażowania kierownictwa.</p>
+					</div>
+				</div>
+				<div class="row ksc-timeline">
+					<div class="col-lg-3 col-md-6">
+						<div class="tl-item" data-date="2026-04-03">
+							<span class="tl-dot"></span>
+							<time class="tl-date" datetime="2026-04-03">3.04.2026</time>
+							<h3>Ustawa wchodzi w życie</h3>
+							<p>Znowelizowana ustawa o KSC zaczyna obowiązywać. Każda firma powinna sprawdzić, czy podlega nowym przepisom.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="tl-item" data-date="2026-10-03">
+							<span class="tl-dot"></span>
+							<time class="tl-date" datetime="2026-10-03">3.10.2026</time>
+							<h3>Wykaz – termin minął</h3>
+							<p>Termin na złożenie wniosku o wpis do wykazu (wykaz-ksc.gov.pl) minął, ale wniosek nadal można złożyć – im szybciej, tym lepiej. Pomożemy to nadrobić.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="tl-item" data-date="2027-04-03">
+							<span class="tl-dot"></span>
+							<time class="tl-date" datetime="2027-04-03">3.04.2027</time>
+							<h3>Pełne wdrożenie</h3>
+							<p>Obowiązki muszą działać w&nbsp;praktyce: system zarządzania bezpieczeństwem informacji, zabezpieczenia techniczne, procedury i&nbsp;szkolenia.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="tl-item" data-date="2028-04-03">
+							<span class="tl-dot"></span>
+							<time class="tl-date" datetime="2028-04-03">3.04.2028</time>
+							<h3>Pierwszy audyt</h3>
+							<p>Podmioty kluczowe przechodzą pierwszy audyt bezpieczeństwa, a&nbsp;następnie powtarzają go co 3 lata.</p>
+						</div>
+					</div>
+				</div>
+				<div class="ksc-notice wow fadeInUp animated" data-animation="fadeInUp animated" data-delay=".2s">
+					<p><strong>Termin minął, ale nadal możesz to nadrobić – pomożemy.</strong> Jeśli do 3 października 2026 r. nie złożyłeś wniosku o wpis do wykazu, a Twoja firma spełnia kryteria ustawy, sprawdzimy z Tobą kwalifikację, przygotujemy dane do wniosku i zaplanujemy kolejne kroki. Im szybciej, tym lepiej.
+					<span id="ksc-countdown">Do pełnego wdrożenia obowiązków (3 kwietnia 2027 r.) zostało <strong id="ksc-days">181</strong> <span id="ksc-days-unit">dni</span>.</span></p>
+					<a href="#contact" class="btn ss-btn smoth-scroll">Skontaktuj się z nami &ndash; bezpłatna konsultacja</a>
+				</div>
+			</div>
+		</section>
+		<!-- nis2-area-end -->
+		<!-- choose-area -->
+		<section class="choose-area pt-120 pb-120 p-relative" style="background:#f5f8fa;">
+			<div class="chosse-img wow fadeInRight animated" data-animation="fadeInRight animated" data-delay=".2s" style="background-image:url(img/bg/about.jpg)"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6">
+						<div class="choose-wrap">
+							<div class="section-title w-title left-align mb-35 wow fadeInDown animated" data-animation="fadeInDown animated" data-delay=".2s">
+								<span>sprawdź</span>
+								<h2>Czy to mnie dotyczy?</h2>
+							</div>
+							<div class="choose-content wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+								<p>Nowe obowiązki dotyczą przede wszystkim średnich i dużych organizacji z branż kluczowych dla gospodarki. Sprawdź, czy rozpoznajesz swoją firmę w poniższych punktach:</p>
+								<div class="choose-list mb-45">
+									<ul>
+										<li>
+											<i class="icon dripicons-checkmark" aria-hidden="true"></i>
+											<span>Działasz w jednym z sektorów objętych ustawą – np. energetyka, transport, ochrona zdrowia, woda, infrastruktura cyfrowa, produkcja, żywność, odpady, usługi pocztowe i kurierskie.</span>
+										</li>
+										<li>
+											<i class="icon dripicons-checkmark" aria-hidden="true"></i>
+											<span>Zatrudniasz co najmniej 50 osób albo Twój roczny obrót i suma bilansowa przekraczają 10 mln euro.</span>
+										</li>
+										<li>
+											<i class="icon dripicons-checkmark" aria-hidden="true"></i>
+											<span>Świadczysz usługi szczególnie wrażliwe – m.in. DNS, rejestrację domen, usługi zaufania lub łączność elektroniczną – wtedy wielkość firmy może nie mieć znaczenia.</span>
+										</li>
+										<li>
+											<i class="icon dripicons-checkmark" aria-hidden="true"></i>
+											<span>Jesteś podmiotem publicznym – urzędem, jednostką samorządu lub inną instytucją publiczną.</span>
+										</li>
+										<li>
+											<i class="icon dripicons-checkmark" aria-hidden="true"></i>
+											<span>Jesteś dostawcą firmy objętej NIS2 – Twój klient musi zadbać o bezpieczeństwo łańcucha dostaw, więc zapyta również o Twoje zabezpieczenia.</span>
+										</li>
+									</ul>
+								</div>
+								<p>Nie masz pewności? Sprawdzimy to razem podczas bezpłatnej konsultacji.</p>
+								<div class="choose-btn">
+									<a href="#contact" class="btn ss-btn smoth-scroll">Sprawdźmy to razem</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- choose-area-end -->
+		<!-- obligations-area -->
+		<section class="services-area services-bg services-two pt-100 pb-70">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-9 col-lg-10">
+						<div class="section-title text-center pl-40 pr-40 mb-50 wow fadeInDown animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<span>obowiązki</span>
+							<h2>Co trzeba zapewnić?</h2>
+						</div>
+						<p class="section-lead text-center mb-60">Ustawa nie narzuca konkretnych produktów. Wymaga, by bezpieczeństwo było przemyślane, udokumentowane i&nbsp;proporcjonalne do ryzyka. W praktyce oznacza to sześć obszarów:</p>
+					</div>
+				</div>
+				<div class="row equal-cards">
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-clipboard-check" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Zarządzanie ryzykiem</h3>
+								<p>Regularna analiza ryzyka i&nbsp;system zarządzania bezpieczeństwem informacji (SZBI): zasady, procedury i jasno przypisane odpowiedzialności.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services active wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-network-wired" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Zabezpieczenia techniczne</h3>
+								<p>Ochrona sieci i systemów: kontrola dostępu, uwierzytelnianie wieloskładnikowe, szyfrowanie, aktualizacje i kopie zapasowe.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-bell" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Obsługa incydentów</h3>
+								<p>Wczesne ostrzeżenie w ciągu 24 godzin, pełne zgłoszenie w ciągu 72 godzin i raport końcowy w ciągu miesiąca – do właściwego zespołu CSIRT.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-link" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Łańcuch dostaw</h3>
+								<p>Ocena bezpieczeństwa dostawców sprzętu, oprogramowania i usług ICT oraz odpowiednie zapisy w umowach.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-user-tie" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Rola kierownictwa</h3>
+								<p>Kierownik podmiotu odpowiada za cyberbezpieczeństwo osobiście, także finansowo, i&nbsp;musi co roku przejść szkolenie z&nbsp;tego zakresu.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-sync-alt" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Ciągłość działania i audyt</h3>
+								<p>Plany ciągłości działania i&nbsp;odtwarzania po awarii, a&nbsp;w&nbsp;podmiotach kluczowych – regularny audyt bezpieczeństwa.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- obligations-area-end -->
+		<!-- counter-area -->
+		<section class="counter-area pt-100 pb-90" style="background-image:url(img/bg/count-bg.jpg);background-size:cover;background-position:center" aria-labelledby="nis2-numbers">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-7 col-lg-8">
+						<div class="section-title text-center mb-60 wow fadeInDown animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<span>w liczbach</span>
+							<h2 id="nis2-numbers">NIS2 w liczbach</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-counter text-center mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="counter p-relative">
+								<span class="count">24</span>
+								<small>h</small>
+							</div>
+							<p>na wczesne ostrzeżenie o&nbsp;poważnym incydencie</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-counter text-center mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="counter p-relative">
+								<span class="count">72</span>
+								<small>h</small>
+							</div>
+							<p>na pełne zgłoszenie incydentu do&nbsp;CSIRT</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-counter text-center mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="counter p-relative">
+								<span class="count">10</span>
+								<small class="unit">mln €</small>
+							</div>
+							<p>maksymalna kara dla podmiotu kluczowego (lub 2% obrotu)</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-counter text-center mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="counter p-relative">
+								<span class="count">300</span>
+								<small>%</small>
+							</div>
+							<p>wynagrodzenia – tyle może wynieść osobista kara dla&nbsp;kierownika</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- counter-area-end -->
+		<!-- services-area -->
+		<section id="services" class="services-area services-bg services-two pt-100 pb-70">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-8 col-lg-10">
+						<div class="section-title text-center pl-40 pr-40 mb-80 wow fadeInDown animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<span>nasza oferta</span>
+							<h2>Bezpieczeństwo od sieci po Zarząd</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row equal-cards">
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-search" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Audyt zgodności z NIS2 i&nbsp;KSC</h3>
+								<p>Sprawdzamy, czy i jak przepisy Cię obejmują, oceniamy stan zabezpieczeń i przygotowujemy raport luk z planem naprawczym, priorytetami i szacunkiem kosztów.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services active wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-file-signature" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Wdrożenie SZBI i&nbsp;dokumentacji</h3>
+								<p>Analiza ryzyka, polityki, procedury i rejestry zgodne z ustawą o KSC oraz normą ISO/IEC 27001 – dopasowane do skali firmy, a nie przepisane z szablonu.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-balance-scale" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Formalności KSC krok po&nbsp;kroku</h3>
+								<p>Pomagamy w samoocenie i&nbsp;wpisie do wykazu, wyznaczeniu osób kontaktowych oraz przygotowaniu procedur zgłaszania incydentów do CSIRT.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-network-wired" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Projektowanie i&nbsp;modernizacja sieci</h3>
+								<p>Bezpieczne sieci LAN, Wi-Fi i WAN: segmentacja, zapory nowej generacji (NGFW), VPN, kontrola dostępu do sieci i podejście Zero Trust.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-eye" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Monitoring i reagowanie na&nbsp;incydenty</h3>
+								<p>Centralne zbieranie i analiza logów (np. Wazuh, Suricata), ochrona stacji roboczych i wykrywanie anomalii. Gdy coś się wydarzy – wiemy, co robić i&nbsp;komu to zgłosić.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-database" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Kopie zapasowe i&nbsp;ciągłość działania</h3>
+								<p>Kopie odporne na ransomware (zasada 3-2-1, kopie niemodyfikowalne), plany ciągłości działania i regularne testy odtwarzania – zanim będą potrzebne.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-bug" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Testy bezpieczeństwa</h3>
+								<p>Skanowanie podatności oraz testy penetracyjne infrastruktury i aplikacji. Wyniki opisujemy tak, by zrozumiał je zarówno informatyk, jak i zarząd.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-chalkboard-teacher" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Szkolenia i świadomość</h3>
+								<p>Coroczne szkolenia dla kierownictwa wymagane ustawą, warsztaty dla zespołów IT i kampanie phishingowe uczące pracowników rozpoznawać zagrożenia.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="s-single-services wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="services-icon">
+								<i class="fal fa-headset" aria-hidden="true"></i>
+							</div>
+							<div class="second-services-content">
+								<h3>Opieka i administracja IT</h3>
+								<p>Stałe utrzymanie sieci, serwerów i stanowisk pracy, zarządzanie aktualizacjami i bieżące wsparcie – także w roli zewnętrznego opiekuna cyberbezpieczeństwa (vCISO).</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- services-area-end -->
+		<!-- open-source-area -->
+		<section id="technologie" class="ksc-band oss-area pt-100 pb-80">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-9 col-lg-10">
+						<div class="section-title text-center pl-40 pr-40 mb-50 wow fadeInDown animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<span>technologie</span>
+							<h2>Stawiamy na sprawdzony Open Source</h2>
+						</div>
+						<p class="section-lead text-center mb-60">
+							Wdrażamy dojrzałe narzędzia open source, z których korzystają firmy i instytucje na całym świecie.<br>
+							Nie płacisz za licencje, kod jest jawny i można go zweryfikować, a Twoje dane zostają u Ciebie.<br>
+							Gdy lepiej sprawdzi się produkt komercyjny – powiemy o tym otwarcie.
+						</p>
+					</div>
+				</div>
+				<div class="row equal-cards">
+					<div class="col-lg-3 col-md-6 mb-30">
+						<div class="oss-card wow fadeInUp animated" data-animation="fadeInUp animated" data-delay=".2s">
+							<span class="oss-badge">SIEM / XDR</span>
+							<h3>Wazuh</h3>
+							<p>Zbiera i analizuje zdarzenia z&nbsp;serwerów oraz komputerów, wykrywa ataki i&nbsp;nieprawidłowości, a przy okazji pomaga wykazać zgodność podczas audytu.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-30">
+						<div class="oss-card wow fadeInUp animated" data-animation="fadeInUp animated" data-delay=".2s">
+							<span class="oss-badge">IDS / IPS</span>
+							<h3>Suricata</h3>
+							<p>Analizuje ruch sieciowy w&nbsp;czasie rzeczywistym i&nbsp;rozpoznaje próby włamań, skanowanie sieci czy komunikację złośliwego oprogramowania.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-30">
+						<div class="oss-card wow fadeInUp animated" data-animation="fadeInUp animated" data-delay=".2s">
+							<span class="oss-badge">Firewall i VPN</span>
+							<h3>OPNsense</h3>
+							<p>Zapora sieciowa z filtrowaniem ruchu, segmentacją sieci i VPN – solidna alternatywa dla drogich urządzeń z płatnymi licencjami.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-30">
+						<div class="oss-card wow fadeInUp animated" data-animation="fadeInUp animated" data-delay=".2s">
+							<span class="oss-badge">Monitoring</span>
+							<h3>Zabbix</h3>
+							<p>Pilnuje dostępności serwerów, urządzeń sieciowych i usług. Gdy coś przestaje działać, dowiadujesz się o tym pierwszy, a nie od klienta.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-30">
+						<div class="oss-card wow fadeInUp animated" data-animation="fadeInUp animated" data-delay=".2s">
+							<span class="oss-badge">Skaner podatności</span>
+							<h3>Greenbone OpenVAS</h3>
+							<p>Regularnie sprawdza systemy pod kątem znanych luk bezpieczeństwa i wskazuje, co trzeba załatać w pierwszej kolejności.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-30">
+						<div class="oss-card wow fadeInUp animated" data-animation="fadeInUp animated" data-delay=".2s">
+							<span class="oss-badge">Logowanie i MFA</span>
+							<h3>Keycloak</h3>
+							<p>Jedno bezpieczne logowanie do wielu aplikacji firmowych z&nbsp;uwierzytelnianiem wieloskładnikowym – jednym z&nbsp;wymagań ustawy o KSC.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-30">
+						<div class="oss-card wow fadeInUp animated" data-animation="fadeInUp animated" data-delay=".2s">
+							<span class="oss-badge">Analiza incydentów</span>
+							<h3>Velociraptor</h3>
+							<p>Pozwala szybko ustalić przebieg incydentu na wielu komputerach jednocześnie – dane przydatne m.in. w&nbsp;raporcie dla CSIRT.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-30">
+						<div class="oss-card wow fadeInUp animated" data-animation="fadeInUp animated" data-delay=".2s">
+							<span class="oss-badge">Dostęp zdalny</span>
+							<h3>WireGuard</h3>
+							<p>Nowoczesny, szybki i&nbsp;bezpieczny VPN do pracy zdalnej oraz łączenia oddziałów firmy w jedną, chronioną sieć.</p>
+						</div>
+					</div>
+				</div>
+				<p class="oss-note">Wskazane nazwy produktów są znakami towarowymi ich właścicieli. Cybernia jest niezależnym integratorem i nie posiada z nimi powiązań organizacyjnych lub kapitałowych.</p>
+			</div>
+		</section>
+		<!-- open-source-area-end -->
+		<!-- work-process-area -->
+		<section class="wp-area wp-bg pt-100 pb-100" style="background:#f5f8fa;">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 mb-30">
+						<div class="section-title w-title left-align mb-35 wow fadeInDown animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<span>jak pracujemy</span>
+							<h2>Cztery kroki do zgodności</h2>
+						</div>
+						<div class="choose-content why-us wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<p>Każdy projekt zaczynamy od zrozumienia Twojej firmy, a nie od listy produktów do kupienia. Dzięki temu inwestujesz tylko w to, co realnie zmniejsza ryzyko.</p>
+							<h3>Dlaczego Cybernia?</h3>
+							<div class="choose-list mb-45">
+								<ul>
+									<li>
+										<i class="icon dripicons-checkmark" aria-hidden="true"></i>
+										<span>Ponad 20 lat praktyki w sieciach, systemach i bezpieczeństwie informacji.</span>
+									</li>
+									<li>
+										<i class="icon dripicons-checkmark" aria-hidden="true"></i>
+										<span>Jeden partner od techniki i dokumentacji – bez przerzucania odpowiedzialności.</span>
+									</li>
+									<li>
+										<i class="icon dripicons-checkmark" aria-hidden="true"></i>
+										<span>Język dopasowany do rozmówcy: technicznie z&nbsp;Działem IT, biznesowo z&nbsp;Zarządem.</span>
+									</li>
+									<li>
+										<i class="icon dripicons-checkmark" aria-hidden="true"></i>
+										<span>Doradzamy niezależnie od producentów i dobieramy rozwiązania do skali oraz budżetu.</span>
+									</li>
+									<li>
+										<i class="icon dripicons-checkmark" aria-hidden="true"></i>
+										<span>Sami ściśle stosujemy zasady poufności i bezpieczeństwa informacji, których uczymy innych.</span>
+									</li>
+								</ul>
+							</div>
+							<div class="choose-btn">
+								<a href="#contact" class="btn ss-btn smoth-scroll">Zacznijmy od rozmowy</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="wp-list wow fadeInUp animated" data-animation="fadeInUp animated" data-delay=".2s">
+							<ul>
+								<li>
+									<div class="wp-icon"><span class="step-no">01</span></div>
+									<div class="wp-content">
+										<h3>Rozmowa i diagnoza</h3>
+										<p>Poznajemy Twoją firmę, ustalamy, czy i w jakiej roli podlegasz ustawie o KSC, oraz oceniamy stan sieci i&nbsp;zabezpieczeń.</p>
+									</div>
+								</li>
+								<li>
+									<div class="wp-icon"><span class="step-no">02</span></div>
+									<div class="wp-content">
+										<h3>Plan działań</h3>
+										<p>Dostajesz raport z przeglądu z rekomendacjami (priorytety, harmonogram i kosztorys). Wiesz, co jest pilne, a co może poczekać.</p>
+									</div>
+								</li>
+								<li>
+									<div class="wp-icon"><span class="step-no">03</span></div>
+									<div class="wp-content">
+										<h3>Wdrożenie</h3>
+										<p>Konfigurujemy zabezpieczenia, przygotowujemy dokumentację i szkolimy ludzi. Technika i procedury idą w&nbsp;parze.</p>
+									</div>
+								</li>
+								<li>
+									<div class="wp-icon"><span class="step-no">04</span></div>
+									<div class="wp-content">
+										<h3>Utrzymanie i doskonalenie</h3>
+										<p>Monitorujemy, testujemy i aktualizujemy. Wspieramy przy incydentach, przeglądach i&nbsp;audycie.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- work-process-area-end -->
+		<!-- pricing-area -->
+		<section id="pricing" class="pricing-area pt-100 pb-90">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-8 col-lg-9">
+						<div class="section-title text-center mb-50 wow fadeInDown animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<span>pakiety</span>
+							<h2>Stała opieka w abonamencie</h2>
+						</div>
+						<p class="section-lead text-center mb-60">Wsparcie specjalistów w przewidywalnym budżecie. Działamy zadaniowo, ale godziny z pakietu możesz wykorzystać dowolnie: na administrację, bezpieczeństwo sieci albo prace związane z&nbsp;wdrożeniem ustawy o KSC.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<div class="pricing-box text-center mb-60 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="pricing-head">
+								<h3>pakiet podstawowy</h3>
+								<div class="price-count mb-30">
+									<p class="price">2000<small> zł</small><span>/miesiąc</span></p>
+								</div>
+							</div>
+							<div class="pricing-body mb-40 text-left">
+								<p>Dla mikrofirm i małych oddziałów, które potrzebują pewnego wsparcia IT.</p>
+								<ul>
+									<li>8 godzin /miesiąc</li>
+									<li>250 zł /godzinę w pakiecie</li>
+									<li>300 zł /godzinę poza pakietem</li>
+									<li>Wsparcie zdalne i na miejscu</li>
+									<li>Dojazd w cenie</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="pricing-box active text-center mb-60 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="pricing-head">
+								<h3>pakiet rozszerzony</h3>
+								<div class="price-count mb-30">
+									<p class="price">3520<small> zł</small><span>/miesiąc</span></p>
+								</div>
+							</div>
+							<div class="pricing-body mb-40 text-left">
+								<p>Dla małych i średnich firm, które rozwijają się stabilnie i chcą mieć IT pod kontrolą.</p>
+								<ul>
+									<li>16 godzin /miesiąc</li>
+									<li>220 zł /godzinę w pakiecie</li>
+									<li>250 zł /godzinę poza pakietem</li>
+									<li>Wsparcie zdalne i na miejscu</li>
+									<li>Dojazd w cenie</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="pricing-box text-center mb-60 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="pricing-head">
+								<h3>pakiet premium</h3>
+								<div class="price-count mb-30">
+									<p class="price">4800<small> zł</small><span>/miesiąc</span></p>
+								</div>
+							</div>
+							<div class="pricing-body mb-40 text-left">
+								<p>Dla rozwijających się firm i organizacji przygotowujących się do KSC.</p>
+								<ul>
+									<li>24 godziny /miesiąc</li>
+									<li>200 zł /godzinę w pakiecie</li>
+									<li>220 zł /godzinę poza pakietem</li>
+									<li>Wsparcie zdalne i na miejscu</li>
+									<li>Dojazd w cenie</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-12">
+						<div class="pricing-box text-center wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="pricing-head">
+								<h3>kompleksowe wdrożenie NIS2 / KSC</h3>
+								<div class="mb-30">
+									<a href="#contact" class="btn ss-btn smoth-scroll">Bezpłatna konsultacja • Szybka wycena</a>
+								</div>
+							</div>
+							<div class="pricing-body mb-40">
+								Zakres prac zależy od wielkości organizacji, sektora oraz obecnego poziomu stosowanych zabezpieczeń.<br>Każdy projekt zgodności wyceniamy indywidualnie – płacisz wyłącznie za realne, dopasowane potrzeby, a nie gotowe pakiety.<br>Wyślij formularz kontaktowy - oddzwonimy, zadamy kilka konkretnych pytań i przygotujemy przejrzystą ofertę wraz z harmonogramem wdrożenia.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- pricing-area-end -->
+		<!-- faq-area -->
+		<section id="faq" class="faq-area pt-100 pb-100" style="background:#f5f8fa;">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-8 col-lg-9">
+						<div class="section-title text-center mb-60 wow fadeInDown animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<span>faq</span>
+							<h2>Pytania, które słyszymy najczęściej</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-xl-10">
+						<div class="faq-wrap" id="faq-accordion">
+							<div class="card">
+								<div class="card-header" id="faq-h1">
+									<h3 class="mb-0">
+										<button class="faq-btn" type="button" data-toggle="collapse" data-target="#faq-c1" aria-expanded="true" aria-controls="faq-c1">Czy nowa ustawa o KSC dotyczy mojej firmy?</button>
+									</h3>
+								</div>
+								<div id="faq-c1" class="collapse show" role="region" aria-labelledby="faq-h1" data-parent="#faq-accordion">
+									<div class="card-body">
+										<p class="mb-0">To zależy od sektora, w którym działasz, wielkości firmy i rodzaju świadczonych usług. Co do zasady przepisy obejmują średnie i duże przedsiębiorstwa z sektorów wymienionych w załącznikach do ustawy, a niektóre podmioty – niezależnie od wielkości. Wstępną samoocenę można przeprowadzić w serwisie biznes.gov.pl, a my chętnie pomożemy ją zweryfikować.</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="faq-h2">
+									<h3 class="mb-0">
+										<button class="faq-btn collapsed" type="button" data-toggle="collapse" data-target="#faq-c2" aria-expanded="false" aria-controls="faq-c2">Termin wpisu do wykazu minął 3 października 2026 r. Co teraz?</button>
+									</h3>
+								</div>
+								<div id="faq-c2" class="collapse" role="region" aria-labelledby="faq-h2" data-parent="#faq-accordion">
+									<div class="card-body">
+										<p class="mb-0">Termin minął, ale nadal możesz to nadrobić. Jeżeli Twoja firma spełnia kryteria, a wniosek nie został złożony, zrób to jak najszybciej w systemie wykaz-ksc.gov.pl – brak wpisu nie zwalnia z obowiązków ustawowych. Pomożemy sprawdzić, czy podlegasz ustawie, i przygotować dane do wniosku. Firmy, które zaczną spełniać kryteria później (np. po wzroście zatrudnienia), mają na złożenie wniosku sześć miesięcy od tego momentu.</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="faq-h3">
+									<h3 class="mb-0">
+										<button class="faq-btn collapsed" type="button" data-toggle="collapse" data-target="#faq-c3" aria-expanded="false" aria-controls="faq-c3">Czym różni się podmiot kluczowy od ważnego?</button>
+									</h3>
+								</div>
+								<div id="faq-c3" class="collapse" role="region" aria-labelledby="faq-h3" data-parent="#faq-accordion">
+									<div class="card-body">
+										<p class="mb-0">Podmioty kluczowe to zwykle duże organizacje z sektorów o szczególnym znaczeniu, takich jak energetyka, transport, ochrona zdrowia czy infrastruktura cyfrowa. Podlegają stałemu nadzorowi i obowiązkowym audytom. Podmioty ważne to przede wszystkim firmy średnie oraz pozostałe sektory – nadzór nad nimi jest zwykle prowadzony po fakcie, np. po incydencie, a kary są niższe. Sam zakres obowiązków jest jednak bardzo podobny.</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="faq-h4">
+									<h3 class="mb-0">
+										<button class="faq-btn collapsed" type="button" data-toggle="collapse" data-target="#faq-c4" aria-expanded="false" aria-controls="faq-c4">Co to jest SZBI i czy muszę mieć certyfikat ISO 27001?</button>
+									</h3>
+								</div>
+								<div id="faq-c4" class="collapse" role="region" aria-labelledby="faq-h4" data-parent="#faq-accordion">
+									<div class="card-body">
+										<p class="mb-0">SZBI, czyli system zarządzania bezpieczeństwem informacji, to uporządkowany sposób dbania o bezpieczeństwo: analiza ryzyka, zasady, procedury, role i regularne przeglądy. Ustawa nie wymaga certyfikatu ISO/IEC 27001, ale norma jest dobrym punktem odniesienia – SZBI zbudowany zgodnie z nią ułatwia wykazanie zgodności podczas audytu.</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="faq-h5">
+									<h3 class="mb-0">
+										<button class="faq-btn collapsed" type="button" data-toggle="collapse" data-target="#faq-c5" aria-expanded="false" aria-controls="faq-c5">Ile mam czasu na zgłoszenie incydentu i komu go zgłaszam?</button>
+									</h3>
+								</div>
+								<div id="faq-c5" class="collapse" role="region" aria-labelledby="faq-h5" data-parent="#faq-accordion">
+									<div class="card-body">
+										<p class="mb-0">Poważny incydent zgłasza się do właściwego zespołu CSIRT: wczesne ostrzeżenie w ciągu 24 godzin od jego wykrycia, pełne zgłoszenie w ciągu 72 godzin, a raport końcowy w ciągu miesiąca. Dlatego procedurę warto przygotować i przećwiczyć, zanim zdarzy się prawdziwy incydent.</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="faq-h6">
+									<h3 class="mb-0">
+										<button class="faq-btn collapsed" type="button" data-toggle="collapse" data-target="#faq-c6" aria-expanded="false" aria-controls="faq-c6">Jakie kary grożą za brak zgodności?</button>
+									</h3>
+								</div>
+								<div id="faq-c6" class="collapse" role="region" aria-labelledby="faq-h6" data-parent="#faq-accordion">
+									<div class="card-body">
+										<p class="mb-0">Podmiotom kluczowym grozi kara do 10 mln euro lub 2% rocznego obrotu, a ważnym – do 7 mln euro lub 1,4% obrotu. Osobną karę, sięgającą 300% wynagrodzenia, można nałożyć na kierownika, który nie dopełnia obowiązków. Najdotkliwsze bywają jednak skutki samego ataku: przestój, utrata danych i zaufania klientów.</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="faq-h7">
+									<h3 class="mb-0">
+										<button class="faq-btn collapsed" type="button" data-toggle="collapse" data-target="#faq-c7" aria-expanded="false" aria-controls="faq-c7">Moja firma jest mała. Czy to mnie nie dotyczy?</button>
+									</h3>
+								</div>
+								<div id="faq-c7" class="collapse" role="region" aria-labelledby="faq-h7" data-parent="#faq-accordion">
+									<div class="card-body">
+										<p class="mb-0">Bezpośrednio – najczęściej nie. Jeśli jednak obsługujesz firmy objęte NIS2, Twoi klienci muszą dbać o bezpieczeństwo łańcucha dostaw i coraz częściej będą wymagać od dostawców podstawowych zabezpieczeń oraz procedur. Poza tym przestępcy nie sprawdzają wielkości firmy – dobre praktyki z ustawy po prostu chronią biznes.</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="faq-h8">
+									<h3 class="mb-0">
+										<button class="faq-btn collapsed" type="button" data-toggle="collapse" data-target="#faq-c8" aria-expanded="false" aria-controls="faq-c8">Od czego zacząć?</button>
+									</h3>
+								</div>
+								<div id="faq-c8" class="collapse" role="region" aria-labelledby="faq-h8" data-parent="#faq-accordion">
+									<div class="card-body">
+										<p class="mb-0">Od bezpłatnej konsultacji. Ustalimy, czy podlegasz ustawie i w jakiej roli, co już masz, a czego brakuje i zaproponujemy plan działania dopasowany do Twoich potrzeb i budżetu.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- faq-area-end -->
+		<!-- [ZMIANA N1] Aktualności z LinkedIn: karty z odnośnikami do wpisów/artykułów firmy. Treść z pliku data/articles.json (js/articles.js). Sekcja jest ukryta, dopóki lista jest pusta. -->
+		<section id="aktualnosci" class="news-area pt-100 pb-70" aria-labelledby="news-title" hidden>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-8 col-lg-10">
+						<div class="section-title text-center mb-60">
+							<span>aktualności</span>
+							<h2 id="news-title">Piszemy na LinkedIn</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row equal-cards" id="news-list" data-source="data/articles.json" data-limit="6"></div>
+				<p class="news-all"><a href="https://www.linkedin.com/company/cybernia-pl/posts/" class="btn ss-btn" target="_blank" rel="noopener noreferrer">Zobacz wszystkie wpisy na LinkedIn<span class="sr-only"> (otwiera się w nowej karcie)</span></a></p>
+			</div>
+		</section>
+		<!-- news-area-end -->
+		<!-- cta-band -->
+		<section class="cta-band pt-70 pb-70" aria-labelledby="cta-title">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-8">
+						<h2 id="cta-title">Nie wiesz, czy NIS2 dotyczy Twojej firmy?</h2>
+						<p>Porozmawiajmy.<br>Podczas bezpłatnej konsultacji ocenimy Twoją sytuację i wskażemy pierwsze kroki.</p>
+					</div>
+					<div class="col-lg-4 text-lg-right">
+						<a href="#contact" class="btn cta-band-btn smoth-scroll">Umów konsultację</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- cta-band-end -->
+		<!-- contact-area -->
+		<section id="contact" class="contact-area contact-bg pt-100 pb-80 p-relative fix" style="background-image:url(img/bg/contact_bg.jpg)">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-7 col-lg-8">
+						<div class="section-title text-center mb-80 wow fadeInDown animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<span>kontakt</span>
+							<h2>Porozmawiajmy o bezpieczeństwie</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<p class="cta-lead">Napisz lub zadzwoń.<br>Podczas bezpłatnej konsultacji ustalimy, czy&nbsp;NIS2 Cię dotyczy i od czego warto zacząć.</p>
+						</div>
+						<div class="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<h3>Godziny pracy:</h3>
+							<p>
+								<i class="fal fa-clock" aria-hidden="true"></i>  <span class="cont">Poniedziałek – Piątek 9:00–17:00</span>
+							</p><br>
+							<h3>Nr telefonu:</h3>
+							<p>
+								<i class="fal fa-phone" aria-hidden="true"></i>  <span class="cont"><span class="forSec">&#48;<span class="prot">2 8</span>&#x30;<!--sec-->&#x36;<span class="prot">69</span>&#32;<!--net-->&#x32;&#52;<span class="prot">11</span>&#x33;&#32;<!--backup-->&#48;<span class="prot">77</span>&#x30;&#53;</span></span>
+							</p><br>
+							<h3>Adres e-mail:</h3>
+							<p>
+								<i class="fal fa-envelope" aria-hidden="true"></i>  <span class="cont"><span class="forSec">&#x6c;&#112;&period;<span class="prot">7 7</span>&#x61;&#105;&#x6e;&#114;&#x65;<span class="prot">b e</span>&#x62;&#121;&#x63;&commat;<span class="prot">98</span>&#x74;<!--sec-->&#107;<span class="prot">x1</span>&#x61;<!--info-->&#116;&#x6e;<span class="prot">00</span>&#111;&#x6b;</span></span>
+							</p>
+						</div>
+						<div class="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<h3>Podejrzewasz incydent?</h3>
+							<p>Zadzwoń od razu – pomożemy ocenić sytuację, ograniczyć skutki i przygotować zgłoszenie do CSIRT.</p>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<form id="contact-form" class="contact-form wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="contact-field p-relative c-name mb-40">
+										<label for="cf-name" class="sr-only">Imię i nazwisko</label>
+										<input type="text" id="cf-name" name="name" placeholder="Imię i nazwisko *" autocomplete="name" minlength="2" maxlength="80" required>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="contact-field p-relative c-email mb-40">
+										<label for="cf-email" class="sr-only">Adres e-mail</label>
+										<input type="email" id="cf-email" name="email" placeholder="Adres e-mail *" autocomplete="email" maxlength="120" required>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="contact-field p-relative c-phone mb-40">
+										<label for="cf-phone" class="sr-only">Telefon</label>
+										<input type="tel" id="cf-phone" name="phone" placeholder="Telefon *" autocomplete="tel" pattern="\+?[0-9 \(\)\-]{9,20}" title="Numer telefonu: co najmniej 9 cyfr, np. 500 600 700 lub +48 500 600 700" required>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="contact-field p-relative c-subject mb-40">
+										<label for="cf-subject" class="sr-only">Temat</label>
+										<input type="text" id="cf-subject" name="subject" placeholder="Temat, np. audyt NIS2 *" list="cf-topics" maxlength="120" required>
+										<datalist id="cf-topics">
+											<option value="Bezpłatna konsultacja NIS2 / KSC"></option>
+											<option value="Audyt zgodności z NIS2 i KSC"></option>
+											<option value="Wdrożenie SZBI i dokumentacji"></option>
+											<option value="Projekt lub modernizacja sieci"></option>
+											<option value="Monitoring i reagowanie na incydenty"></option>
+											<option value="Kopie zapasowe i ciągłość działania"></option>
+											<option value="Szkolenie dla kierownictwa lub pracowników"></option>
+											<option value="Stała opieka IT – pakiet abonamentowy"></option>
+										</datalist>
+									</div>
+								</div>
+								<div class="col-lg-12">
+									<div class="contact-field p-relative c-message mb-15">
+										<label for="cf-message" class="sr-only">Treść wiadomości</label>
+										<textarea id="cf-message" name="message" cols="30" rows="10" placeholder="W czym możemy pomóc? *" required></textarea>
+									</div>
+									<div class="p-relative mb-45">
+										<details class="rodo-info">
+											<summary>Jak przetwarzamy dane z formularza – rozwiń, aby przeczytać więcej</summary>
+											<p>Formularz nie wysyła niczego przez naszą stronę: po kliknięciu przycisku otwiera się Twój program pocztowy z gotową wiadomością, a do nas trafia ona dopiero wtedy, gdy sam(a) klikniesz „Wyślij”. Administratorem danych osobowych zawartych w wiadomości jest Cybernia sp. z o.o. z siedzibą w Gdańsku (ul. Jana Heweliusza 11/811, 80-890 Gdańsk). Dane przetwarzamy wyłącznie w celu obsługi zapytania i podjęcia, na Twoje żądanie, działań przed zawarciem umowy (art. 6 ust. 1 lit. b RODO) albo w naszym prawnie uzasadnionym interesie, jakim jest kontakt biznesowy (lit. f) – tak długo, jak jest to konieczne do obsługi zapytania. Masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przeniesienia oraz wniesienia sprzeciwu wobec przetwarzania, a także prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych. Szczegółowe informacje (odbiorcy danych, przekazywanie poza EOG, Twoje prawa) znajdziesz w <a href="polityka-prywatnosci.html">Polityce prywatności</a>. <!-- [ZMIANA R1] odnośnik do pełnej informacji z art. 13 RODO --> Podanie danych jest dobrowolne, ale niezbędne do udzielenia odpowiedzi.</p>
+										</details>
+									</div>
+									<p class="form-note">Po kliknięciu otworzy się Twój program pocztowy z gotową wiadomością – sprawdzisz ją i sam(a) klikniesz „Wyślij”.</p>
+									<button type="submit" class="btn">Przygotuj e-mail</button>
+									<p class="ajax-response" role="status" aria-live="polite"></p>
+									<div class="mail-fallback" id="mail-fallback" hidden>
+										<p>Jeśli program pocztowy się nie otworzył, skopiuj poniższą treść i wyślij ją na adres <strong id="mail-addr"></strong>.</p>
+										<label for="mail-copy" class="sr-only">Treść wiadomości do skopiowania</label>
+										<textarea id="mail-copy" rows="8" readonly></textarea>
+										<button type="button" class="btn" id="mail-copy-btn">Skopiuj treść</button>
+									</div>
+									<noscript><p class="form-note">Do wysłania wiadomości potrzebna jest włączona obsługa JavaScript. Możesz też napisać lub zadzwonić, korzystając z danych obok.</p></noscript>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- contact-area-end -->
+	</main>
+	<!-- main-area-end -->
+
+	<section class="map-consent" id="map-box" aria-label="Mapa dojazdu" data-map-src="https://www.google.com/maps?q=Jana+Heweliusza+11,+80-890+Gda%C5%84sk&amp;z=15&amp;output=embed" data-map-title="Mapa dojazdu – Cybernia sp. z o.o., ul. Jana Heweliusza 11, Gdańsk">
+		<div class="map-consent-inner">
+			<p>Mapa pochodzi z Google Maps i wczytuje się po wyrażeniu zgody na zewnętrzne treści (baner na dole strony). Możesz też wczytać ją jednorazowo przyciskiem poniżej &ndash; Twoja przeglądarka połączy się wtedy z serwerami Google (m.in. adres IP, możliwe cookies). <a href="polityka-prywatnosci.html#mapa-google">Szczegóły w polityce prywatności</a>.</p>
+			<button type="button" class="btn" id="map-load" hidden>Pokaż mapę</button>
+			<a class="map-ext" href="https://www.google.com/maps/search/?api=1&amp;query=Jana+Heweliusza+11%2C+80-890+Gda%C5%84sk" target="_blank" rel="noopener noreferrer">Otwórz w Google Maps<span class="sr-only"> (otwiera się w nowej karcie)</span></a>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer class="footer-bg footer-p pt-50 pb-20">
+		<div class="footer-top pb-10">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-xl-3 col-lg-3 col-sm-6">
+						<div class="footer-widget mb-30">
+							<div class="logo mb-15">
+								<a href="#home" class="smoth-scroll">
+									<svg class="brand-logo" viewBox="0 0 240 64" width="190" height="51" role="img" aria-labelledby="logo-title-bottom" xmlns="http://www.w3.org/2000/svg">
+										<title id="logo-title-bottom">Cybernia sp. z o.o. – powrót na górę strony</title>
+										<path d="M28 2 52 11v19c0 15-10 26-24 32C14 56 4 45 4 30V11z" fill="#425cbb"/>
+										<path d="M35.8 23.2a11 11 0 1 0 0 15.6" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+										<circle cx="35.8" cy="23.2" r="3.4" fill="#fff"/>
+										<circle cx="35.8" cy="38.8" r="3.4" fill="#fff"/>
+										<text x="64" y="36" textLength="170" lengthAdjust="spacingAndGlyphs" font-family="Roboto, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">CYBERNIA</text>
+										<text x="65" y="53" textLength="168" lengthAdjust="spacingAndGlyphs" font-family="Poppins, Arial, sans-serif" font-size="10.5" font-weight="500" fill="#9fb0ff">SIECI · CYBERBEZPIECZEŃSTWO</text>
+									</svg>
+								</a>
+							</div>
+							<div class="footer-text mb-20">
+								<p class="company-data">Cybernia sp. z o.o.<br>
+									<span class="forSec">&#x31;&#x31;&#x38;/&#x31;&#x31; az<!--CSIRT-->s<span class="prot">te st</span>uile&#x77;eH <!--firewall-->a<span class="prot">ne et</span>naJ &period;<span class="prot">net</span>lu<br>k&#x73;<span class="prot">sec</span>ń&#x61;dG &#x30;&#x39;&#x38;-<span class="prot">98</span>&#x30;&#x38;</span><br>
+									<span class="forSec">&#x37;<!--SZBI-->&#x30;&#x30;<!--cybernia.pl-->&#x31;&#x30;<span class="prot">sec</span>&#x32;&#x31;&#x30;<span class="prot">en nd</span>&#x30;<span class="prot">et ti</span>&#x30; :SR<span class="prot">1,2</span>K<br>&#x36;&#x31;&#x39;&#x30;&#x35;&#x35;&#x33;<span class="prot">ip v6</span><span class="prot">77</span>&#x33;&#x38;&#x35; :<!--SOC-->P<!--CSIRT-->IN<br>&#x31;<span class="prot">i t</span>&#x34;&#x35;<!--KSC-->&#x35;<span class="prot">69</span>&#x33;&#x30;&#x33;&#x34;<span class="prot">net</span>&#x35;<!--firewall--> :NOGE<span class="prot">ip v6</span>R</span><br>
+									Sąd Rejonowy Gdańsk-Północ w&nbsp;Gdańsku, VII Wydział Gospodarczy KRS<br>
+									Kapitał zakładowy: 5 000 zł
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-sm-6">
+						<div class="footer-widget mb-30">
+							<div class="f-widget-title">
+								<h2>Kontakt</h2>
+							</div>
+							<div class="footer-text mb-20">
+								<p>
+									<i class="fal fa-clock" aria-hidden="true"></i>  Pon. – Pt. 9:00–17:00<br>
+									<i class="fal fa-envelope" aria-hidden="true"></i>  <span class="forSec">&#x6c;&#112;&period;<span class="prot">7 7</span>&#x61;&#105;&#x6e;&#114;&#x65;<span class="prot">b e</span>&#x62;&#121;&#x63;&commat;<span class="prot">98</span>&#x74;<!--sec-->&#107;<span class="prot">x1</span>&#x61;<!--info-->&#116;&#x6e;<span class="prot">00</span>&#111;&#x6b;</span><br>
+									<i class="fal fa-phone" aria-hidden="true"></i>  <span class="forSec">&#48;<span class="prot">2 8</span>&#x30;<span class="prot">69</span>&#54;<!--SOC-->&#32;<span class="prot">net</span>&#x32;&#52;<!--Zero Trust-->&#x33;&#32;<!--backup-->&#48;<span class="prot">77</span>&#x30;&#53;</span><br>				
+									<i class="fal fa-map-marker-alt" aria-hidden="true"></i>  Gdańsk, woj. pomorskie
+								</p>
+							</div>
+							<p class="footer-social">
+								<a href="https://www.linkedin.com/company/cybernia-pl/" target="_blank" rel="noopener noreferrer" aria-label="Cybernia w serwisie LinkedIn (otwiera się w nowej karcie)"><i class="fab fa-linkedin-in" aria-hidden="true"></i> Konto na LinkedIn</a>
+							</p>
+							<p class="footer-social">
+								<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fcybernia.pl%2F" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i>  Udostępnij stronę na LinkedIn</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-3 col-sm-6">
+						<div class="footer-widget mb-30">
+							<div class="f-widget-title">
+								<h2>Mapa strony</h2>
+							</div>
+							<div class="footer-link">
+								<ul>
+									<li><a href="#home" class="smoth-scroll">Home</a></li>
+									<li><a href="#about" class="smoth-scroll">O nas</a></li>
+									<li><a href="#nis2" class="smoth-scroll">NIS2 i KSC</a></li>
+									<li><a href="#services" class="smoth-scroll">Oferta</a></li>
+									<li><a href="#technologie" class="smoth-scroll">Technologie</a></li>
+									<li><a href="#pricing" class="smoth-scroll">Pakiety</a></li>
+									<li><a href="#faq" class="smoth-scroll">FAQ</a></li>
+									<li id="aktualnosci-link" hidden><a href="#aktualnosci" class="smoth-scroll">Aktualności</a></li>
+									<li><a href="#contact" class="smoth-scroll">Kontakt</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-sm-6">
+						<div class="footer-widget mb-30">
+							<div class="f-widget-title">
+								<h2>Przydatne linki</h2>
+							</div>
+							<div class="footer-link">
+								<ul>
+									<li><a href="https://wykaz-ksc.gov.pl" target="_blank" rel="noopener noreferrer">Wykaz KSC .gov.pl<span class="sr-only"> (otwiera się w nowej karcie)</span></a></li>
+									<li><a href="https://cyber.gov.pl/dla-podmiotów" target="_blank" rel="noopener noreferrer">CYBER .gov.pl<span class="sr-only"> (otwiera się w nowej karcie)</span></a></li>
+									<li><a href="https://csirt.gov.pl" target="_blank" rel="noopener noreferrer">CSIRT .gov.pl<span class="sr-only"> (otwiera się w nowej karcie)</span></a></li>
+									<li><a href="https://cert.pl" target="_blank" rel="noopener noreferrer">CERT Polska<span class="sr-only"> (otwiera się w nowej karcie)</span></a></li>
+									<li><a href="https://wiedza.cert.pl" target="_blank" rel="noopener noreferrer"> Wiedza CERT.PL<span class="sr-only"> (otwiera się w nowej karcie)</span></a></li>
+									<li><a href="https://www.gov.pl/web/baza-wiedzy/nowelizacja-ustawy-o-krajowym-systemie-cyberbezpieczenstwa" target="_blank" rel="noopener noreferrer">Nowelizacja KSC<span class="sr-only"> (otwiera się w nowej karcie)</span></a></li>
+									<li><a href="https://www.gov.pl/attachment/e178e5c5-7f3a-49da-9131-a0f86c2b1601" target="_blank" rel="noopener noreferrer">Komentarz do KSC<span class="sr-only"> (otwiera się w nowej karcie)</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="copyright-text">
+							<p>&copy; <span class="js-year">2026</span> Cybernia sp. z o.o. Wszelkie prawa zastrzeżone. &middot; <a href="polityka-prywatnosci.html" class="pp-link">Polityka prywatności</a> &middot; <a href="#ustawienia-cookies" id="cookie-settings" class="pp-link">Ustawienia cookies</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer-end -->
+
+	<!-- JS here -->
+	<div id="cookie-banner" class="cookie-banner" role="dialog" aria-labelledby="cb-title" aria-describedby="cb-text" hidden>
+		<div class="cookie-banner-text">
+			<strong id="cb-title">Mapa Google i pliki cookies</strong>
+			<p id="cb-text">Na stronie jest mapa dojazdu z Google Maps. Jeśli się zgodzisz, wczytamy ją od razu, a Google może zapisać pliki cookies i przetworzyć Twój adres IP. Bez zgody mapy nie wczytujemy. Swój wybór zapamiętamy w przeglądarce na 12 miesięcy, a zmienisz go w każdej chwili w stopce („Ustawienia cookies”). <a href="polityka-prywatnosci.html#mapa-google">Polityka prywatności</a></p>
+		</div>
+		<div class="cookie-banner-actions">
+			<button type="button" class="cookie-btn" id="cookie-reject">Odrzucam</button>
+			<button type="button" class="cookie-btn" id="cookie-accept">Akceptuję</button>
+		</div>
+	</div>
+	<script src="js/vendor/jquery-3.6.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/one-page-nav-min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/mailto-form.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/articles.js"></script>
+	<script src="js/cookie-consent.js"></script>
+	<script src="js/particles.js"></script>
+	<script src="js/particles.app.js"></script>
+	<script>
+	(function () {
+		"use strict";
+		var now = new Date(), i;
+		var years = document.querySelectorAll('.js-year');
+		for (i = 0; i < years.length; i++) { years[i].textContent = now.getFullYear(); }
+		var steps = document.querySelectorAll('.tl-item[data-date]');
+		for (i = 0; i < steps.length; i++) {
+			if (new Date(steps[i].getAttribute('data-date') + 'T00:00:00') <= now) { steps[i].className += ' is-past'; }
+		}
+		var rev = function (t) { return Array.from(t).reverse().join(''); };
+		var secured = document.querySelectorAll('.forSec');
+		for (i = 0; i < secured.length; i++) {
+			var el = secured[i], lines = [''];
+			(function walk(nodes) {
+				for (var k = 0; k < nodes.length; k++) {
+					var nd = nodes[k];
+					if (nd.nodeType === 3) { lines[lines.length - 1] += nd.nodeValue; }
+					else if (nd.nodeType === 1) {
+						if (nd.classList.contains('prot')) { continue; }
+						if (nd.tagName === 'BR') { lines.push(''); } else { walk(nd.childNodes); }
+					}
+				}
+			})(el.childNodes);
+			lines = lines.map(rev);
+			while (el.firstChild) { el.removeChild(el.firstChild); }
+			el.classList.remove('forSec');
+			var plain = lines.join(' ').replace(/\s+/g, ' ').trim(), href = '';
+			if (!el.closest('a') && lines.length === 1) {
+				if (/^[^@\s]+@[^@\s]+\.[a-z]{2,}$/i.test(plain)) { href = 'mailto:' + plain; }
+				else if (/^\+?[0-9 ()\-]{9,20}$/.test(plain)) { var dg = plain.replace(/[^0-9+]/g, ''); href = 'tel:' + (dg.charAt(0) === '+' ? dg : '+48' + dg); }
+			}
+			var holder = el;
+			if (href) { holder = document.createElement('a'); holder.href = href; holder.className = 'contact-link'; el.appendChild(holder); }
+			for (var m = 0; m < lines.length; m++) {
+				if (m) { holder.appendChild(document.createElement('br')); }
+				holder.appendChild(document.createTextNode(lines[m]));
+			}
+		}
+		var cursors = document.querySelectorAll('.typed-cursor');
+		for (i = 0; i < cursors.length; i++) { cursors[i].setAttribute('aria-hidden', 'true'); }
+		var box = document.getElementById('ksc-countdown');
+		if (box) {
+			var days = Math.ceil((new Date('2027-04-03T00:00:00') - now) / 86400000);
+			if (days > 0) {
+				document.getElementById('ksc-days').textContent = days;
+				document.getElementById('ksc-days-unit').textContent = (days === 1) ? 'dzień' : 'dni';
+			} else {
+				box.style.display = 'none';
+			}
+		}
+	})();
+	</script>
+</body>
+</html>

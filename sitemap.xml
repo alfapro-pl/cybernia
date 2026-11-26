@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- [ZMIANA E3] Nowy plik: strona jednostronicowa, więc jeden adres -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://cybernia.pl/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://cybernia.pl/polityka-prywatnosci.html</loc>
+  </url>
+</urlset>
