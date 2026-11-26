@@ -1,0 +1,161 @@
+/* [ZMIANA T2] Dopasowanie rozmiarów: mniejszy tekst i odstępy na komputerze oraz układ „mobile first” na telefonie.
+   Plik ładowany jako ostatni (po style.css i bloku <style> w <head>), więc nadpisuje wartości z szablonu.
+   Cofnięcie zmiany: usuń linię <link rel="stylesheet" href="css/dopasowanie.css"> z <head>. */
+
+/* ====================== WSZYSTKIE EKRANY ====================== */
+/* kontrast: tekst w kolumnie kontaktowej leży na zdjęciu, a był jasnoszary; placeholdery pól miały kontrast 2,7:1 */
+.contact-area .single-cta p { color: #3b4150; }
+.contact-field input::placeholder, .contact-field textarea::placeholder { color: #767676; opacity: 1; }
+
+/* ====================== KOMPUTER (od 992 px) ====================== */
+@media (min-width: 992px) {
+	/* sekcja powitalna – mieści się na ekranie laptopa (np. 1366×768) */
+	.slider-bg2 { min-height: min(820px, 100vh); }
+	.slider-bg2 .second-slider-content { padding-top: 128px; padding-bottom: 50px; }
+	.slider-content h1.hero-title { font-size: 58px; letter-spacing: -1.2px; }
+	.slider-bg2 .slider-content p.hero-eyebrow { margin-bottom: 18px; font-size: 12.5px; padding: 7px 16px; }
+	.slider-bg2 .slider-content > span.hero-sub { font-size: 13.5px; letter-spacing: 2.5px; margin: 18px 0 12px; }
+	.slider-bg2 .slider-content > span.hero-sub::before { margin-top: 8px; width: 40px; }
+	.slider-bg2 .slider-content p { font-size: 15px; line-height: 1.7; max-width: 560px; }
+	.slider-btn .btn { padding: 14px 28px; }
+	.slider-btn .btn.hero-btn-outline { padding: 12px 28px; }
+	.hero-trust { margin-top: 12px; }
+	.hero-trust li { font-size: 13.5px; margin-bottom: 6px; }
+
+	/* odstępy między sekcjami */
+	main section.pt-100 { padding-top: 70px; }
+	main section.pt-120 { padding-top: 80px; }
+	main section.pb-120, main section.pb-100 { padding-bottom: 70px; }
+	main section.pb-90, main section.pb-80 { padding-bottom: 60px; }
+	main section.pb-70 { padding-bottom: 46px; }
+	main section.pt-70 { padding-top: 54px; }
+	main section.pb-70.cta-band { padding-bottom: 54px; }
+
+	/* nagłówki sekcji i akapity wstępne */
+	.section-title span { font-size: 14px; }
+	.section-title h2 { font-size: 36px; line-height: 1.2; padding-bottom: 20px; }
+	.section-title.mb-80 { margin-bottom: 44px; }
+	.section-title.mb-50 { margin-bottom: 28px; }
+	.section-lead { font-size: 15px; line-height: 27px; }
+	.section-lead.mb-60 { margin-bottom: 36px; }
+
+	/* karty, cennik, kroki, kontakt */
+	.second-services-content h5 { font-size: 18px; }
+	.s-single-services p, .second-services-content p { font-size: 14px; line-height: 24px; }
+	.price-count .price, .price-count h2 { font-size: 38px; }
+	.pricing-head h4 { font-size: 16px; }
+	.pricing-body li { margin-top: 11px; }
+	.faq-btn { font-size: 15px; }
+	.single-cta h3, .single-cta .cta-lead { font-size: 17px; line-height: 25px; }
+	.cta-band h2 { font-size: 28px; }
+	.tl-date { font-size: 22px; }
+	.oss-name { font-size: 21px; }
+	.wp-content h5 { font-size: 21px; }
+	.counter small.unit { font-size: 24px; top: -22px; }
+}
+
+/* ====================== TABLET I TELEFON (do 991 px) ====================== */
+@media (max-width: 991px) {
+	/* tło sekcji powitalnej: koło z grafiki nachodziło na akapit i przyciski – rozjaśniamy je półprzezroczystą nakładką */
+	.slider-bg2 { background-image: linear-gradient(rgba(245,248,250,.84), rgba(245,248,250,.84)), url(../img/bg/header-bg.jpg) !important; }
+
+	/* karty ofert: ikona nad tekstem, tekst na całą szerokość karty */
+	.services-two .s-single-services, .s-single-services { padding: 24px 18px 8px; margin-bottom: 18px; float: none; }
+	.s-single-services .services-icon { float: none; width: auto; margin: 0 0 12px; }
+	.s-single-services .second-services-content { float: none; width: auto; margin-left: 0; }
+	.second-services-content h5 { font-size: 18px; margin-bottom: 8px; }
+	.s-single-services p, .second-services-content p { font-size: 15px; line-height: 1.6; margin-bottom: 14px; }
+
+}
+
+/* ====================== TELEFON (do 767 px) ====================== */
+@media (max-width: 767px) {
+	body { font-size: 15px; line-height: 1.6; }
+
+	/* sekcja powitalna */
+	.slider-bg2 { min-height: 0; margin-top: -100px; }
+	.slider-bg2 .second-slider-content { padding-top: 130px; padding-bottom: 48px; }
+	.slider-content h1.hero-title { font-size: 38px; line-height: 1.08; }
+	.slider-bg2 .slider-content > span.hero-sub { font-size: 12.5px; letter-spacing: 2px; margin: 18px 0 12px; }
+	.slider-bg2 .slider-content p { font-size: 15px; line-height: 1.65; }
+	.hero-trust li { font-size: 14px; margin-right: 18px; margin-bottom: 6px; }
+
+	/* odstępy między sekcjami */
+	main section.pt-100, main section.pt-120 { padding-top: 54px; }
+	main section.pb-120, main section.pb-100, main section.pb-90, main section.pb-80 { padding-bottom: 44px; }
+	main section.pb-70 { padding-bottom: 30px; }
+	main section.pt-70 { padding-top: 44px; }
+	main section.pb-70.cta-band { padding-bottom: 44px; }
+
+	/* nagłówki i akapity – długi tekst do lewej (łatwiej się czyta niż wyśrodkowany) */
+	.section-title span { font-size: 13px; }
+	.section-title h2 { font-size: 27px; line-height: 1.2; padding-bottom: 18px; }
+	.section-title.mb-80, .section-title.mb-50 { margin-bottom: 26px; }
+	.section-title.pl-40 { padding-left: 0; }
+	.section-title.pr-40 { padding-right: 0; }
+	.section-lead, .section-lead.text-center { font-size: 15px; line-height: 1.65; text-align: left !important; }
+	.section-lead.mb-60 { margin-bottom: 28px; }
+	.cta-band h2 { font-size: 23px; }
+
+	/* technologie, kroki, oś czasu */
+	.oss-name { font-size: 20px; }
+	.wp-content h5 { font-size: 20px; margin-bottom: 8px; }
+	.wp-content p { font-size: 15px; line-height: 1.6; }
+	.tl-date { font-size: 21px; }
+	.ksc-notice { padding: 20px 18px; }
+
+	/* cennik */
+	.pricing-box { margin-bottom: 28px; }
+	.pricing-body { padding: 0 22px; }
+	.pricing-body li, .pricing-body p { font-size: 14.5px; line-height: 1.5; }
+	.pricing-body li { margin-top: 10px; }
+	.price-count .price, .price-count h2 { font-size: 38px; }
+	.pricing-head { margin-bottom: 18px; }
+
+	/* licznik */
+	.counter small.unit { font-size: 22px; top: -20px; }
+
+	/* FAQ i kontakt */
+	.faq-btn { font-size: 15px; line-height: 1.35; padding-top: 16px; padding-bottom: 16px; }
+	.single-cta h3 { font-size: 17px; }
+	.single-cta .cta-lead { font-size: 16px; line-height: 1.55; }
+	.single-cta.pb-30 { padding-bottom: 14px !important; margin-bottom: 14px !important; }
+
+	/* przyciski wieloliniowe nie sklejają wierszy */
+	.btn { line-height: 1.4; padding: 14px 26px; }
+	.slider-btn .btn, .cta-band .btn { width: 100%; text-align: center; }
+	.news-all .btn { width: 100%; }
+
+	/* mapa: przycisk i link jeden pod drugim */
+	.map-consent { height: auto; min-height: 240px; padding: 28px 18px; }
+	.map-consent .btn { display: block; width: 100%; margin: 0 0 14px; }
+	.map-ext { display: block; }
+	.map-consent.is-loaded { min-height: 0; }
+	.map-consent iframe.map { height: 300px; }
+
+	/* pole formularza: ikona z prawej nie zawija placeholdera */
+	.contact-field input, .contact-field textarea { padding: 16px 44px 16px 18px; font-size: 15px; }
+	.contact-field textarea { height: 170px; }
+	.contact-field::after { right: 18px; bottom: 18px; }
+	.contact-field.c-message::after { top: 17px; bottom: unset; }
+	.contact-field.mb-40 { margin-bottom: 14px !important; }
+	.contact-field.mb-15 { margin-bottom: 14px !important; }
+	.p-relative.mb-45 { margin-bottom: 22px !important; }
+
+	/* FAQ i cennik */
+	.faq-wrap .card-body, .faq-wrap .card-body p { font-size: 15px; line-height: 1.6; }
+	.faq-wrap .card-body { padding: 4px 18px 18px; }
+	.faq-btn { padding-left: 18px; padding-right: 44px; }
+	.faq-wrap .card-header { padding-left: 18px; padding-right: 18px; }
+	.pricing-body p { text-align: left; }
+
+	/* stopka */
+	.footer-p .footer-widget { margin-bottom: 8px; }
+}
+
+/* bardzo wąskie telefony */
+@media (max-width: 359px) {
+	.slider-content h1.hero-title { font-size: 33px; }
+	.section-title h2 { font-size: 24px; }
+	.pricing-body { padding: 0 16px; }
+}
