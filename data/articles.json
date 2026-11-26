@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Zero Trust to nie produkt, który kupisz w pudełku. To filozofia projektowania Twojego bezpieczeństwa.",
+    "url": "https://www.linkedin.com/company/cybernia-pl/posts/",
+    "excerpt": "„Kupiliśmy licencje Zero Trust, więc nasza sieć jest w pełni bezpieczna i zgodna z NIS2” – tak nie działa. To filozofia projektowania SZBI oparta na zasadzie: nigdy nie ufaj, zawsze weryfikuj.",
+    "image": "img/news/zero-trust.jpg",
+    "imageAlt": "Świecący napis Zero Trust na niebieskim tle z kodem binarnym"
+  },
+  {
+    "title": "Deklaracja Stosowania (SoA): dlaczego puste pola w kolumnie „uzasadnienie wykluczenia” to zaproszenie do kary?",
+    "url": "https://www.linkedin.com/company/cybernia-pl/posts/",
+    "excerpt": "Dla audytora KSC puste pole w SoA to dowód, że nie było rzetelnej analizy ryzyka. Każde wykluczenie zabezpieczenia trzeba uzasadnić na piśmie.",
+    "image": "img/news/soa-serwerownia.jpg",
+    "imageAlt": "Szafy serwerowe w nowoczesnej serwerowni ze świecącą tarczą z symbolem zatwierdzenia"
+  },
+  {
+    "title": "„Nie ma czasu, IT się tym zajmie” – dlaczego ten argument pod NIS2/UoKSC może kosztować Prezesa roczne oszczędności?",
+    "url": "https://www.linkedin.com/company/cybernia-pl/posts/",
+    "excerpt": "Szkolenie z cyberbezpieczeństwa dla zarządu to obowiązek, którego nie da się oddelegować na dział IT. Co musi obejmować i czym to się dowodzi przed audytorem.",
+    "image": "img/news/szkolenie-zarzadu.jpg",
+    "imageAlt": "Dokument NIS2 z tarczą i kłódką w otoczeniu ikon sektorów: energetyka, transport, ochrona zdrowia, administracja, finanse i chmura"
+  }
+]
